@@ -3,7 +3,7 @@ echo true
 
 cheers = Channel.from 'Bonjour', 'Ciao', 'Hello', 'Hola'
 
-process sayHello {
+process verylonggggggggggggggggggggggggggggggggggggggggggggggggggggsayHello {
   input: 
     val x from cheers
   script:
